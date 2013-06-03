@@ -1,0 +1,16 @@
+#What messages should show up on the chat channel gui blocks?
+Messages:
+  Left Click: Left Click - Join Channel / Change Color
+  Right Click: Right Click - Leave Channel
+  Shift Click: Shift Click - Set Active Channel
+#Which channel should be the first active speaking channel for new players?
+First Active: Global
+#should chat show up in console?
+Console Chat: true
+#chats a player should join when first logging onto a server
+Join Chats:
+  World Chat: true
+  Region Chat: true
+  Global: true
+#Must be a multiple of 9 no higher than 45
+Max Channels: 45

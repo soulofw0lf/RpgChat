@@ -1,0 +1,23 @@
+name: RpgChat
+main: com.vartala.soulofw0lf.rpgchat.RpgChat
+version: 1.3
+author: soulofw0lf
+description: MMO Rpg Chat Management System
+commands:
+  rchat:
+    description: rpg Chat
+    usage: </rchat (or) ch>
+    aliases: [ch]
+  chatregion:
+    description: base command for making rpg chat regions
+    usage: </chatregion (or) crg> <create/delete> <region name> <raidus(with create only)>
+    aliases: [crg]
+  w:
+    description: whisper a player
+    usage: </w (or) wh> <player name> <message>
+    aliases: [wh, whisper]
+  r:
+    description: reply to a player
+    usage: </r (or) replay (or) rewh> <message>
+    aliases: [reply, rewh]
+    
